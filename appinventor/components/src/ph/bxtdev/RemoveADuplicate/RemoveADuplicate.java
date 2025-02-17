@@ -6,7 +6,7 @@ import com.google.appinventor.components.annotations.*;
 import com.google.appinventor.components.common.ComponentCategory;
 import com.google.appinventor.components.runtime.AndroidNonvisibleComponent;
 import com.google.appinventor.components.runtime.ComponentContainer;
-import com.google.appinventor.components.runtime.YailList;  
+import com.google.appinventor.components.runtime.util.YailList;  
 import java.util.List;  
 import java.util.ArrayList;  
 
@@ -43,8 +43,7 @@ public class RemoveADuplicate extends AndroidNonvisibleComponent {
             for (Object item : inputArray) {
                 input.add(item); 
             }
-
-            // Iterate through input list and remove duplicates
+            
             for (Object item : input) {
                  if(!output.contains(item)){
                     output.add(item); 
