@@ -36,7 +36,7 @@ public class RemoveADuplicate extends AndroidNonvisibleComponent {
     }
 
     @SimpleFunction
-    public YailList RemoveDuplicates(YailList inputList, YailList outputList){
+    public YailList RemoveDuplicates(YailList inputList){
             List<Object> input = new ArrayList<>();
             List<Object> output = new ArrayList<>();
             Object[] inputArray = inputList.toArray();
